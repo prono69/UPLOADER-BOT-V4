@@ -3,7 +3,7 @@ hachoir
 numpy
 Pillow
 requests
-tgcrypto
+PyTgCrypto
 olefile
 motor
 pytz
