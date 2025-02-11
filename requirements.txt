@@ -3,7 +3,7 @@ hachoir
 numpy
 Pillow
 requests
-PyTgCrypto
+git+https://github.com/TelegramPlayGround/pyrogram-tgcrypto.git
 olefile
 motor
 pytz
