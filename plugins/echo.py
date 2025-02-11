@@ -15,6 +15,7 @@ import os
 import time
 import random
 from pyrogram import Client
+from pyrogram import enums
 from plugins.functions.verify import verify_user, check_token, check_verification, get_token
 from plugins.functions.forcesub import handle_force_subscribe
 from plugins.functions.display_progress import humanbytes
