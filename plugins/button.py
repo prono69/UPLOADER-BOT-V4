@@ -93,7 +93,7 @@ async def youtube_dl_call_back(bot, update):
         "-c",
         "--max-filesize", str(Config.TG_MAX_FILE_SIZE),
         "--embed-subs",
-        "-f", f"{youtube_dl_format}bestvideo+bestaudio/best",
+        "-f", f"{youtube_dl_format}",
         "--hls-prefer-ffmpeg",
         "--user-agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
         youtube_dl_url,
