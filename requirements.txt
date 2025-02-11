@@ -4,7 +4,7 @@ numpy
 Pillow
 requests
 GitPython
-git+https://github.com/TelegramPlayGround/pyrogram-tgcrypto.git
+# git+https://github.com/TelegramPlayGround/pyrogram-tgcrypto.git
 olefile
 motor
 pytz
