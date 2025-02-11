@@ -5,6 +5,7 @@ Pillow
 requests
 GitPython
 # git+https://github.com/TelegramPlayGround/pyrogram-tgcrypto.git
+tgcrypto-pyrofork
 olefile
 motor
 pytz
