@@ -33,7 +33,7 @@ from pyrogram.types import Thumbnail
 
 
 
-@Client.on_message(filters.private & filters.regex(pattern=".*http.*"))
+@Client.on_message(filters.regex(pattern=".*http.*"))
 async def echo(bot, update):
     if update.from_user.id != Config.OWNER_ID:  
         if not await check_verification(bot, update.from_user.id) and Config.TRUE_OR_FALSE:
@@ -72,7 +72,7 @@ async def echo(bot, update):
             return
 
 
-    logger.info(update.from_user)
+    # logger.info(update.from_user)
     url = update.text
     youtube_dl_username = None
     youtube_dl_password = None
